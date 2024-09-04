@@ -14,3 +14,7 @@ class Solution(object):
             GroupAnag[newStr].append(s)
 
         return list(GroupAnag.values())
+    
+soln = Solution()
+strs = ['ant', 'tan', 'bat', 'tab', 'cat']
+soln.groupAnagrams(strs)
